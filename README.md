@@ -4,6 +4,8 @@ After a friend of mine had been targeted by a phishing attack, I decided to make
 
 Best case scenario, it makes invalid the whole dataset they  collected. Worst case scenario, they can still split the data I artificially generated from the genuine one (using complex regex, cross-checking the IP sending the requests, or analysing the traffic peak time) but still – I made it so that it can be quite a pain in the ass to recover the data.
 
+![](flodding.gif)
+
 ## Room for improvement
 
 - using a parallelized queue in combination with proxies can overcome the IP cross-check countermeasure
